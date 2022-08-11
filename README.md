@@ -8,6 +8,6 @@ five days.
 This application should use HTML, Css and the OpenWeather API 
 To get all the weather data which is displayed
 
-Weather Dashboard URL:
+Weather Dashboard URL: https://github.com/AmalHirsi/5-Day-Weather-Dashboard.git
 
   
