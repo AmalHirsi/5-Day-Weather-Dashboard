@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <!-- These are the links for the Bootstrap Css-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <script type="text/JavaScript" src="https://MomentJS.com/downloads/moment.js"></script>
+</head>
+<body>
+    <!--The header-->
+    <header id="title" class="container-fluid  pt-3 pb-3 text-center"><h1 class="title">Weather Dashboard </h1>
+    </header>
+
+     <main class="container">
+        <div class="col-3 left_div justify-content-center pt-3">
+            <div class="search_div mb-4">
+            <div class="col-lg-4" id="search">
+                <div class="class="justify-content-center pt-2 pl-3"">
+                    <h2> Search for a City </h2>
+                    <form id="search">
+                        <input class="city-entry" type="text" class="form-control" placeholder="Enter City Name"">
+                        <button type="submit" id='search' class='btn'>Search</button>   
+                  </div>
+             </div>
+            </form>
+         </div>
+         <div class="today_weather col-9 pt-3">
+            <div class="bg-light p-3">
+                <div class="row">
+                    <div class="col-6">
+                        <h3 id="city-name" class="city-name align-middle"></h3>
+                        <img id="current-pic" alt="">
+                        <p id="temperature"></p>
+                        <p id="humidity"></p>
+                        <p id="wind-speed"></p>
+        
+                    </div>
+                </div>
+            </div>
+            </div>
+         <div class="row">
+            <div class="col-lg-12 current-weather-container"> 
+                <h5 class="text-dark">5-Day Forecast</h5>
+            </div>
+         </div>  
+         <div class="col-sm-10 col-md-4 offset-lg-1 col-lg-2 p-1">
+         <div class="card day-0 m-0 text-center">
+            <div class="card-body p-1">
+            <h6 class="card-title">Day 2</h6>
+            <img class="five-day-img mb-1" />
+            <div class="card-subtitle mb-2 text-muted">Temp: <span class="fiveday-temp"></span> 
+            <div class="card-subtitle mb-2 text-muted">Humidity: <span class="fiveday-humid"></span> 
+               </div>
+                </div>
+                </div>
+            </div>
+         </div>
+         <div class="col-sm-10 col-md-4 offset-lg-1 col-lg-2 p-1">
+            <div class="card day-0 m-0 text-center">
+               <div class="card-body p-1">
+               <h6 class="card-title">Day 2</h6>
+               <img class="five-day-img mb-1" />
+               <div class="card-subtitle mb-2 text-muted">Temp: <span class="fiveday-temp"></span> 
+               <div class="card-subtitle mb-2 text-muted">Humidity: <span class="fiveday-humid"></span> 
+                  </div>
+                   </div>
+                   </div>
+               </div>
+            </div>
+            <div class="col-sm-10 col-md-4 offset-lg-1 col-lg-2 p-1">
+                <div class="card day-0 m-0 text-center">
+                   <div class="card-body p-1">
+                   <h6 class="card-title">Day 3</h6>
+                   <img class="five-day-img mb-1" />
+                   <div class="card-subtitle mb-2 text-muted">Temp: <span class="fiveday-temp"></span> 
+                   <div class="card-subtitle mb-2 text-muted">Humidity: <span class="fiveday-humid"></span> 
+                      </div>
+                       </div>
+                       </div>
+                   </div>
+                </div>
+                <div class="col-sm-10 col-md-4 offset-lg-1 col-lg-2 p-1">
+                    <div class="card day-0 m-0 text-center">
+                       <div class="card-body p-1">
+                       <h6 class="card-title">Day 4</h6>
+                       <img class="five-day-img mb-1" />
+                       <div class="card-subtitle mb-2 text-muted">Temp: <span class="fiveday-temp"></span> 
+                       <div class="card-subtitle mb-2 text-muted">Humidity: <span class="fiveday-humid"></span> 
+                          </div>
+                           </div>
+                           </div>
+                       </div>
+                    </div>
+                    <div class="col-sm-10 col-md-4 offset-lg-1 col-lg-2 p-1">
+                        <div class="card day-0 m-0 text-center">
+                           <div class="card-body p-1">
+                           <h6 class="card-title">Day 5</h6>
+                           <img class="five-day-img mb-1" />
+                           <div class="card-subtitle mb-2 text-muted">Temp: <span class="fiveday-temp"></span> 
+                           <div class="card-subtitle mb-2 text-muted">Humidity: <span class="fiveday-humid"></span> 
+                              </div>
+                               </div>
+                               </div>
+                           </div>
+                        </div>
+            
+             </main>
+     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+     <script src="./Assets/js/script.js"></script>
+</body>
+</html>

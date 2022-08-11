@@ -1,0 +1,37 @@
+body {
+    background-color:azure;
+}
+
+.title {
+    color: floralwhite;
+    font-weight: bold;
+    text-align:center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background-color:rgb(55, 83, 147);
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h2 {
+  display: flex;
+  align-items: centre;
+  font-size: 20px;
+  font-weight: bolder;
+
+}
+.btn {
+    margin-bottom: 10px;
+    background-color: #5585b1;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.today-weather {
+    height: 50%;
+    border: 15px solid black;
+}
